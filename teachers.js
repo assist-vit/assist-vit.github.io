@@ -145,6 +145,8 @@ const PROFFESSORS = {
   
   'Abdul rashid': { 'Teaching': '4', 'Evaluation': '5', 'Behaviour': '5', 'Internals': '5', 'Average': 'HIGH', 'Overall': 'AVERAGE' },
 
+  'Sharad Chandra Tripathi': { 'Teaching': '3', 'Evaluation': '1', 'Behaviour': '2', 'Internals': '2', 'Average': 'LOW', 'Overall': 'BAD' },
+
   'Abha Gupta': {
     'Teaching': '4',
     'Evaluation': '4',

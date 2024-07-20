@@ -1679,3 +1679,37 @@ input, select, textarea {
 		body.is-preload #footer {
 			opacity: 0;
 		}
+		.headerRow, .row {
+			display: flex;
+			align-items: center;
+			margin-bottom: 20px;
+		}
+		
+		.headerRow h3, .row select {
+			margin-right: 10px; 
+		}
+		
+		.headerRow h3 {
+			flex: 1;
+		}
+		
+		.row select {
+			flex: 1;
+		}
+		
+		.buttonRow {
+			display: flex;
+			justify-content: space-between;
+			margin-bottom: 10px;
+		}
+		
+		.buttonRow button {
+			flex: 1;
+			margin-right: 10px;
+		}
+		
+		.buttonRow button:last-child {
+			margin-right: 0;
+		}
+		
+		

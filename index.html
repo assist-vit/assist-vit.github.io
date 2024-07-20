@@ -238,128 +238,49 @@
 							<h2 class="major">GPA</h2>
 							<p>Select Grades and Credits Below:</p>
 							<nav>
-								<div class="dropdowngpa">
-									<h3>Grades</h3>
-									<h3>Credits</h3>
-									<select id="g1">
-										<option value="S">S</option>
-										<option value="A">A</option>
-										<option value="B">B</option>
-										<option value="C">C</option>
-										<option value="D">D</option>
-										<option value="E">E</option>
-										<option value="F">F</option>
-										<option value="x">Not Available</option>
-									</select>
-									<select id="c1">
-										<option value="4">4</option>
-										<option value="3">3</option>
-										<option value="2">2</option>
-										<option value="1">1</option>
-										<option value="x">Not Available</option>
-									</select>
-									<select id="g2">
-										<option value="S">S</option>
-										<option value="A">A</option>
-										<option value="B">B</option>
-										<option value="C">C</option>
-										<option value="D">D</option>
-										<option value="E">E</option>
-										<option value="F">F</option>
-										<option value="x">Not Available</option>
-									</select>
-									<select id="c2">
-										<option value="4">4</option>
-										<option value="3">3</option>
-										<option value="2">2</option>
-										<option value="1">1</option>
-										<option value="x">Not Available</option>
-									</select>
-									<select id="g3">
-										<option value="S">S</option>
-										<option value="A">A</option>
-										<option value="B">B</option>
-										<option value="C">C</option>
-										<option value="D">D</option>
-										<option value="E">E</option>
-										<option value="F">F</option>
-										<option value="x">Not Available</option>
-									</select>
-									<select id="c3">
-										<option value="4">4</option>
-										<option value="3">3</option>
-										<option value="2">2</option>
-										<option value="1">1</option>
-										<option value="x">Not Available</option>
-									</select>
-									<select id="g4">
-										<option value="S">S</option>
-										<option value="A">A</option>
-										<option value="B">B</option>
-										<option value="C">C</option>
-										<option value="D">D</option>
-										<option value="E">E</option>
-										<option value="F">F</option>
-										<option value="x">Not Available</option>
-									</select>
-									<select id="c4">
-										<option value="4">4</option>
-										<option value="3">3</option>
-										<option value="2">2</option>
-										<option value="1">1</option>
-										<option value="x">Not Available</option>
-									</select>
-									<select id="g5">
-										<option value="S">S</option>
-										<option value="A">A</option>
-										<option value="B">B</option>
-										<option value="C">C</option>
-										<option value="D">D</option>
-										<option value="E">E</option>
-										<option value="F">F</option>
-										<option value="x">Not Available</option>
-									</select>
-									<select id="c5">
-										<option value="4">4</option>
-										<option value="3">3</option>
-										<option value="2">2</option>
-										<option value="1">1</option>
-										<option value="x">Not Available</option>
-									</select>
-									<select id="g6">
-										<option value="S">S</option>
-										<option value="A">A</option>
-										<option value="B">B</option>
-										<option value="C">C</option>
-										<option value="D">D</option>
-										<option value="E">E</option>
-										<option value="F">F</option>
-										<option value="x">Not Available</option>
-									</select>
-									<select id="c6">
-										<option value="4">4</option>
-										<option value="3">3</option>
-										<option value="2">2</option>
-										<option value="1">1</option>
-										<option value="x">Not Available</option>
-									</select>
+								<div id="rowsContainer">
+									<div class="headerRow">
+										<h3>Grades</h3>
+										<h3>Credits</h3>
+									</div>
+									<div class="row">
+										<select class="gradeSelect">
+											<option value="S">S</option>
+											<option value="A">A</option>
+											<option value="B">B</option>
+											<option value="C">C</option>
+											<option value="D">D</option>
+											<option value="E">E</option>
+											<option value="F">F</option>
+											<option value="x">Not Available</option>
+										</select>
+										<select class="creditSelect">
+											<option value="4">4</option>
+											<option value="3">3</option>
+											<option value="2">2</option>
+											<option value="1">1</option>
+											<option value="x">Not Available</option>
+										</select>
+									</div>
 								</div>
 								<p> </p>
+								<div class="buttonRow">
+									<button id="addRow">Add Row</button>
+									<button id="removeRow">Remove Row</button>
+								</div>
 								<button id="submitgpa">Find out!</button>
 								<button id="reload1">Reload</button>
 								<p> </p>
 								<div class="result">
-								<h3><center>Result</center></h3>
-							<center><h1 id="resultsgpa"></h1></center>
-							<center><h3 id="resultsgpa1"></h3></center>
-							 
-							<center><p><a href="#faq"><span>Not working?</span></a></p></center>
+									<h3><center>Result</center></h3>
+									<center><h1 id="resultsgpa"></h1></center>
+									<center><h3 id="resultsgpa1"></h3></center>
+									<center><p><a href="#faq"><span>Not working?</span></a></p></center>
 								</div>
 							</nav>
-						</article>
+						</article>			
 
-					<!--Resources-->
-
+						<!--Resources-->
 						<article id="resources">
 							<h2 class="major">Resources</h2>
 							<nav>
@@ -395,13 +316,7 @@
 								<h2 class="major">Contact</h2>
 									<h3><a href="#contact" class="icon fa-envelope" onclick="copyEmail()"><span> Mail</span></a></h3>
 									<p><a href="mailto:facchek@outlook.com">Facchek@outlook.com</a></p>
-									<!--
-									<h3>Akshat</h3>
-									<h3>Pandey</h3>
-									<h3><a href="https://www.linkedin.com/in/shakshat/" class="icon brands fa-linkedin"><span> Linkedin</span></a></h3>
-									<h3><a href="https://www.linkedin.com/in/shivansh838759314" class="icon brands fa-linkedin"><span> Linkedin</span></a></h3>
-									<h3><a href="https://www.instagram.com/.shivaaaansh." class="icon brands fa-instagram"> Instagram</span></a></li>
-									-->
+								
 								</ul>
 							</article>
 

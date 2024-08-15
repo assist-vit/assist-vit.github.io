@@ -5,7 +5,7 @@ const PROFFESSORS = {
 
   'Hemanta Kallita': { 'Teaching': '4', 'Evaluation': '5', 'Behaviour': '5', 'Internals': '5', 'Average': 'medium', 'Overall': 'good' },
     
-  'Kumkum': { 'Teaching': '5', 'Evaluation': '4', 'Behaviour': '3', 'Internals': '3', 'Average': 'high', 'Overall': 'medium' },
+  'Kumkum Dubey': { 'Teaching': '5', 'Evaluation': '4', 'Behaviour': '3', 'Internals': '3', 'Average': 'high', 'Overall': 'medium' },
       
   'Aanjan kumar': { 'Teaching': '3', 'Evaluation': '4', 'Behaviour': '5', 'Internals': '5', 'Average': 'low', 'Overall': 'good' },
   
@@ -517,15 +517,6 @@ const PROFFESSORS = {
     'Overall': 'Good',
   },
 
-  'JP Shritharanya': {
-    'Teaching': '2.5',
-    'Evaluation': '3',
-    'Behaviour': '2.5',
-    'Internals': '3',
-    'Average': 'High',
-    'Overall': 'Average',
-  },
-
   'K Pallavi': {
     'Teaching': '5',
     'Evaluation': '5',
@@ -985,15 +976,6 @@ const PROFFESSORS = {
     'Overall': 'Average',
   },
 
-  'Shweta Saxena': {
-    'Teaching': '5',
-    'Evaluation': '5',
-    'Behaviour': '5',
-    'Internals': '5',
-    'Average': 'High',
-    'Overall': 'Good',
-  },
-
   'Siddharth Singh Chouhan': {
     'Teaching': '2.75',
     'Evaluation': '3',
@@ -1289,9 +1271,41 @@ const PROFFESSORS = {
 
       },
 
-  
-};
+//3//
 
+  'Abha trivedi': { 'Teaching': '5', 'Evaluation': '4', 'Behaviour': '5', 'Internals': '4', 'Average': 'MEDIUM', 'Overall': 'GOOD' },
+
+  'Dev Brat': { 'Teaching': '2', 'Evaluation': '3', 'Behaviour': '1', 'Internals': '1', 'Average': 'HIGH', 'Overall': 'BAD' },
+
+  'Sumit Som': { 'Teaching': '3', 'Evaluation': '2', 'Behaviour': '5', 'Internals': '4', 'Average': 'LOW', 'Overall': 'AVERAGE' },
+
+  'Pallabi Sarkar': { 'Teaching': '5', 'Evaluation': '4', 'Behaviour': '5', 'Internals': '4', 'Average': 'MEDIUM', 'Overall': 'GOOD' },
+
+  'Sirajudeen': { 'Teaching': '5', 'Evaluation': '5', 'Behaviour': '5', 'Internals': '5', 'Average': 'HIGH', 'Overall': 'GOOD' },
+
+  'Dheresh soni': { 'Teaching': '3', 'Evaluation': '4', 'Behaviour': '3', 'Internals': '4', 'Average': 'MEDIUM', 'Overall': 'AVERAGE' },
+
+  'Mohh. Rafi lone': { 'Teaching': '2', 'Evaluation': '3', 'Behaviour': '5', 'Internals': '3', 'Average': 'MEDIUM', 'Overall': 'GOOD' },
+
+  'Shweta Saxena': { 'Teaching': '3', 'Evaluation': '3', 'Behaviour': '5', 'Internals': '4', 'Average': 'HIGH', 'Overall': 'AVERAGE' },
+
+  'RamRaj Dangi': { 'Teaching': '4', 'Evaluation': '3', 'Behaviour': '4', 'Internals': '4', 'Average': 'HIGH', 'Overall': 'GOOD' },
+
+  'Antima jain': { 'Teaching': '1', 'Evaluation': '1', 'Behaviour': '1', 'Internals': '2', 'Average': 'MEDIUM', 'Overall': 'BAD' },
+
+  'Nella Anveshkumar': { 'Teaching': '4', 'Evaluation': '4', 'Behaviour': '4', 'Internals': '3', 'Average': 'MEDIUM', 'Overall': 'GOOD' },
+
+  'Nitin Kumar Mishra': { 'Teaching': '2', 'Evaluation': '2', 'Behaviour': '3', 'Internals': '3', 'Average': 'LOW', 'Overall': 'AVERAGE' },
+
+  'Saurab Prasad': { 'Teaching': '4', 'Evaluation': '5', 'Behaviour': '5', 'Internals': '5', 'Average': 'HIGH', 'Overall': 'AVERAGE' },
+
+  'Shahab saquib Sohail': { 'Teaching': '2', 'Evaluation': '5', 'Behaviour': '5', 'Internals': '5', 'Average': 'MEDIUM', 'Overall': 'GOOD' },
+
+  'Ashfaq ahmed najar': { 'Teaching': '2', 'Evaluation': '3', 'Behaviour': '5', 'Internals': '4', 'Average': 'LOW', 'Overall': 'AVERAGE' },
+
+  'Jitendra mathur': { 'Teaching': '5', 'Evaluation': '5', 'Behaviour': '5', 'Internals': '', 'Average': '', 'Overall': 'GOOD' }
+
+}
 
 document.getElementById("submit").addEventListener('click', function () {
   let dropdown = document.getElementById("dropdown");

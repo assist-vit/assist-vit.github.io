@@ -1085,10 +1085,10 @@ const PROFFESSORS = {
   },
 
   'Vijay Kumar Patel': {
-    'Teaching': '1',
-    'Evaluation': '1',
-    'Behaviour': '1',
-    'Internals': '1',
+    'Teaching': '2',
+    'Evaluation': '2',
+    'Behaviour': '2',
+    'Internals': '2',
     'Average': 'Low',
     'Overall': 'Bad',
   },
@@ -1157,12 +1157,12 @@ const PROFFESSORS = {
   },
 
   'Hemant Nashine': {
-    'Teaching': '4',
-    'Evaluation': '3',
-    'Behaviour': '3',
-    'Internals': '3',
-    'Average': 'Medium',
-    'Overall': 'Average',
+    'Teaching': '1',
+    'Evaluation': '1',
+    'Behaviour': '2',
+    'Internals': '1',
+    'Average': 'Low',
+    'Overall': 'Bad',
   },
 
   'Bhavana Bhagerwal': {

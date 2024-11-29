@@ -283,15 +283,6 @@ const PROFFESSORS = {
     'Overall': 'Average',
   },
 
-  'Arindam Ghosh': {
-    'Teaching': '2',
-    'Evaluation': '2',
-    'Behaviour': '2',
-    'Internals': '3',
-    'Average': 'Medium',
-    'Overall': 'Bad',
-  },
-
   'Arpita Banoria': {
     'Teaching': '4',
     'Evaluation': '5',
@@ -796,14 +787,6 @@ const PROFFESSORS = {
     'Overall': 'Average',
   },
 
-  'Rahul Kumar Chaturvedi': {
-    'Teaching': '5',
-    'Evaluation': '5',
-    'Behaviour': '5',
-    'Internals': '5',
-    'Average': 'Medium',
-    'Overall': 'Good',
-  },
 
   'Rajdeep Ghosh': {
     'Teaching': '5',
@@ -1303,7 +1286,19 @@ const PROFFESSORS = {
 
   'Ashfaq ahmed najar': { 'Teaching': '2', 'Evaluation': '3', 'Behaviour': '5', 'Internals': '4', 'Average': 'LOW', 'Overall': 'AVERAGE' },
 
-  'Jitendra mathur': { 'Teaching': '5', 'Evaluation': '5', 'Behaviour': '5', 'Internals': '', 'Average': '', 'Overall': 'GOOD' }
+  'Jitendra mathur': { 'Teaching': '5', 'Evaluation': '5', 'Behaviour': '5', 'Internals': '', 'Average': '', 'Overall': 'GOOD' },
+
+  //4//
+
+    'Azra Nazir': { 'Teaching': '4', 'Evaluation': '5', 'Behaviour': '5', 'Internals': '5', 'Average': 'Medium', 'Overall': 'Good' },
+    'Arindam Dutta': { 'Teaching': '1', 'Evaluation': '2', 'Behaviour': '5', 'Internals': '3', 'Average': 'Low', 'Overall': 'Average' },
+    'Arindam Ghosh': { 'Teaching': '5', 'Evaluation': '5', 'Behaviour': '5', 'Internals': '5', 'Average': 'High', 'Overall': 'Good' },
+    'Achu Govind': { 'Teaching': '4', 'Evaluation': '5', 'Behaviour': '5', 'Internals': '5', 'Average': 'Medium', 'Overall': 'Good' },
+    'MK Jayanthi': { 'Teaching': '2', 'Evaluation': '5', 'Behaviour': '2', 'Internals': '3', 'Average': 'High', 'Overall': 'Average' },
+    'Rahul Kumar Chaturvedi': { 'Teaching': '4', 'Evaluation': '4', 'Behaviour': '5', 'Internals': '5', 'Average': 'Medium', 'Overall': 'Good' },
+    'Saurav Prasad': { 'Teaching': '4', 'Evaluation': '4', 'Behaviour': '5', 'Internals': '5', 'Average': 'High', 'Overall': 'Good' },
+    'Sukumar': { 'Teaching': '2', 'Evaluation': '5', 'Behaviour': '5', 'Internals': '5', 'Average': 'Medium', 'Overall': 'Good' },
+    'Rp Sugavaneshwar': { 'Teaching': '1', 'Evaluation': '3', 'Behaviour': '1', 'Internals': '1', 'Average': 'Medium', 'Overall': 'Bad' }
 
 }
 

@@ -1298,7 +1298,6 @@ const PROFFESSORS = {
     'Rahul Kumar Chaturvedi': { 'Teaching': '4', 'Evaluation': '4', 'Behaviour': '5', 'Internals': '5', 'Average': 'Medium', 'Overall': 'Good' },
     'Saurav Prasad': { 'Teaching': '4', 'Evaluation': '4', 'Behaviour': '5', 'Internals': '5', 'Average': 'High', 'Overall': 'Good' },
     'Sukumar': { 'Teaching': '2', 'Evaluation': '5', 'Behaviour': '5', 'Internals': '5', 'Average': 'Medium', 'Overall': 'Good' },
-    'Rp Sugavaneshwar': { 'Teaching': '1', 'Evaluation': '3', 'Behaviour': '1', 'Internals': '1', 'Average': 'Medium', 'Overall': 'Bad' }
 
 }
 

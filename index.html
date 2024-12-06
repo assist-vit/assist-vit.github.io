@@ -50,6 +50,8 @@
 								<li><a href="#ffcs">FFCS</a></li>
 								<li><a href="#gpa">GPA</a></li>
 								<li><a href="#resources">Resources</a></li>
+								<li><a href="#groups">Whatsapp groups</a></li>
+								<li><a href="#cabins">Faculty Cabins</a></li>
 								<li><a href="#services">Services</a></li>
 								<li><a href="#contact">Contact</a></li>
 							</ul>
@@ -341,6 +343,30 @@
 							</nav>
 						</article>
 
+						<!--Whatsapp Groups-->
+						<article id="groups">
+							<h2 class="major">Whatsapp Groups</h2>
+							<nav>
+								<div class="search-bar1">
+									<input type="text" id="groupinput" placeholder="Enter Semester Name or Pick from the list belowt" oninput="filterDropdownsem()">
+									 
+									<select id="dropdownsem">
+										<option value="general">General</option>
+										<option value="wintersem2425">Winter Semester 2024-25</option>
+									</select>
+									 
+									<button id="submitsem">Find Links!</button>
+									<button id="reload2">Reload</button>
+									<p></p>
+									<div class="results">
+										<center><h3 class="major">Links</h3></center>
+										 
+										<center><p id="sem"></p></center>
+										<center><p><a href="#faq"><span>Not working?</span></a></p></center>
+									</div>
+								</div>
+							</nav>
+						</article>
 						<!-- Contact -->
 							<article id="contact">
 								<h2 class="major">Contact</h2>
@@ -415,6 +441,7 @@
 			<script src="assets/js/main.js"></script>
 			<script src="teachers.js"></script>
 			<script src="search.js"></script>
+			<script src="groups.js"></script>
 			<script src="gpa.js"></script>
 			<script src="res.js"></script>
 			<script src="reload.js"></script>

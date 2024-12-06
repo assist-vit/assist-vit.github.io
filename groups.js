@@ -1,6 +1,6 @@
 const group = {
     'general': {
-        'Link': 'generallink',
+        'Link': 'Under Construction. Please check back later.',
     },
     'wintersem2425': {
         'Link': 'https://docs.google.com/spreadsheets/d/1xItL90XfVk1qAu95FBm7VwmhwNFPwG_M56b4Af1wGPI/edit?usp=sharing',

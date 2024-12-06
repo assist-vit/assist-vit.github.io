@@ -17,3 +17,11 @@ document.getElementById("reload3").onclick = function() {
 document.getElementById("reload4").onclick = function() {
     location.reload();
 };
+
+document.getElementById("reload5").onclick = function() {
+    location.reload();
+};
+
+document.getElementById("reload6").onclick = function() {
+    location.reload();
+};

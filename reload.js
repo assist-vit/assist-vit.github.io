@@ -13,3 +13,7 @@ document.getElementById("reload2").onclick = function() {
 document.getElementById("reload3").onclick = function() {
     location.reload();
 };
+
+document.getElementById("reload4").onclick = function() {
+    location.reload();
+};

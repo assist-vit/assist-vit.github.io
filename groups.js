@@ -4,6 +4,7 @@ const group = {
     },
     'wintersem2425': {
         'Link': 'https://docs.google.com/spreadsheets/d/1xItL90XfVk1qAu95FBm7VwmhwNFPwG_M56b4Af1wGPI/edit?usp=sharing',
+        'Add' : 'https://forms.gle/o6QzUCU91EMpfgfT8',
     }
 };
 
@@ -31,13 +32,13 @@ document.getElementById("submitsem").addEventListener('click', function () {
     if (selectedsem in group) {
         let sem = document.getElementById("sem");
         let Link = group[selectedsem]['Link'];
+        let Add = group[selectedsem]['Add'];
         let clickh = `Click Here!`
-        sem.innerHTML = `<a href="${Link}" target="_blank">${Link}</a>
-        ff
-        <br>`;
+        sem.innerHTML = `<a href="${Link}" target="_blank">${Link}</a> <br> <br>;
+                            <a href="${Add}" target="_blank">${Add}</a>`;
     } else {
         let sem = document.getElementById("sem");
-        sem.innerHTML = `Please Select a Course from the available options`;
+        sem.innerHTML = `Please Select a option from the available options`;
         sem.setAttribute("style", `color: #FF1800;`);
     }
 });
@@ -52,9 +53,11 @@ document.getElementById("submitsem").addEventListener('click', function () {
     if (selectedsem in group) {
         let sem = document.getElementById("sem");
         let Link = group[selectedsem]['Link'];
-        sem.innerHTML = `<a href="${Link}" target="_blank">${Link}</a><br>`;
+        let Add = group[selectedsem]['Add'];
+        sem.innerHTML = `To Join and Find Groups: <a href="${Link}" target="_blank">${Link}</a> <br> <br>
+                            To add your own group: <br> <a href="${Add}" target="_blank">${Add}</a>`;
     } else {
         let sem = document.getElementById("sem");
-        sem.innerHTML = `Please Select a Course from the available options`;
+        sem.innerHTML = `Please Select a option from the available options`;
     }
 });

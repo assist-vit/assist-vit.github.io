@@ -1,15 +1,15 @@
 const subs = {
     'MAT': {
-        'Link': 'https://1drv.ms/f/s!Ap0RqjyeMmhGbJNpj2Ra01QKk_M?e=ZcIO8B',
+        'Link': 'https://drive.google.com/drive/folders/17RwONEHWZ861TMNNe5A3P8eneeb9svTo?usp=sharing',
     },
     'CHY': {
         'Link': 'https://1drv.ms/f/s!Ap0RqjyeMmhGgRA81mU1cPWHAR79?e=1uO0Pl',
     },
     'CSE': {
-        'Link': 'https://1drv.ms/f/s!Ap0RqjyeMmhGgWZhQmT91TneScPF?e=qHafut',
+        'Link': 'https://drive.google.com/drive/folders/1QqNtSb6efAcvZxjDdeyz0efEqRXCRj3j?usp=sharing',
     },
     'EEE': {
-        'Link': 'https://1drv.ms/f/s!Ap0RqjyeMmhGgVBdJRmNeWVBGOb6?e=dp9sVC',
+        'Link': 'https://drive.google.com/drive/folders/1XQ8c3Lgx2XwfqpvS6uBqzSTfWMGDC1G4?usp=sharing',
     },
     'PHY': {
         'Link': 'https://1drv.ms/f/s!Ap0RqjyeMmhGgS65jyymbE9lPlUn?e=1AuPVb',
@@ -22,6 +22,9 @@ const subs = {
     },
     'CSA': {
         'Link': 'https://1drv.ms/f/s!Ap0RqjyeMmhGgXuirW1poPi9JDER?e=Lx8PV7',
+    },
+    'ECE': {
+        'Link': 'https://drive.google.com/drive/folders/15XqskOQ0x2ZSZ9yiA16GNesY3OZy3CG6?usp=sharing',
     },
 
 };
